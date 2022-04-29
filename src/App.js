@@ -1,9 +1,14 @@
+import Navbar from './components/Navbar/Navbar.js';
+import Home from './components/Home/Home.js';
+
 function App() {
   return (
-    <h1 className="text-3xl underline font-thin">
-    Hello world!
-  </h1>
+    <span>
+      <Navbar></Navbar>
+      <Home>Text</Home>
+
+    </span>
   );
-}
+};
 
 export default App;
