@@ -1,12 +1,14 @@
 import React, {Component} from 'react'
 
-class code extends Component{
+class Code extends Component{
     render() {
         return (
-            <div></div>
+            <div className='m-[2%] w-auto h-screen bg-white flex'>
+
+            </div>
             )
     }
 
 }
 
-export default code
+export default Code

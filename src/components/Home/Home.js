@@ -1,7 +1,5 @@
 import React, {Component} from 'react'
 
-//conatiner
-import HomeContainer from './Home components/HomeContainer'
 
 //preview pages
 import Code from './Home components/code'
@@ -13,12 +11,12 @@ import Contact from './Home components/contact'
 class Home extends Component{
     render() {
         return (
-            <HomeContainer>
+            <div className='ml-16 bg-black w-auto  overflow-x-hidden flex flex-col'>
                 <Code></Code>
                 <Art></Art>
                 <Writing></Writing>
                 <Contact></Contact>
-            </HomeContainer>
+            </div>
             )
     }
 
