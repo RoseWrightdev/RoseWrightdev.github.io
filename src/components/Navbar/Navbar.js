@@ -22,7 +22,7 @@ class Navbar extends Component {
   render() {
     return (
         <nav className='fixed top-0 left-0 h-screen w-16 flex flex-col
-        bg-sky-50 shadow-lg justify-evenly'>
+        bg-slate-50 shadow-lg justify-evenly'>
             <a href='index.html'>
                 <NavbarIcon icon={<MdHome size={IconSize}/>} text='You are here'/>
             </a>

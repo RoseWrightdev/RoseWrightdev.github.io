@@ -11,7 +11,7 @@ import Contact from './Home components/contact'
 class Home extends Component{
     render() {
         return (
-            <div className='ml-16 bg-black w-auto  overflow-x-hidden flex flex-col'>
+            <div className='ml-16 bg-slate-200 w-auto  overflow-x-hidden flex flex-col'>
                 <Code></Code>
                 <Art></Art>
                 <Writing></Writing>

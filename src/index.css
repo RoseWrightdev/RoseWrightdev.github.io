@@ -3,11 +3,17 @@
 @tailwind utilities;
 
 @layer components{
+
+    body{
+        @apply bg-slate-50
+    }
+
+    
     .NavbarIcon{
         @apply relative flex items-center justify-center 
         h-12 w-12 mt-2 mb-2 mx-auto  
-      bg-white hover:bg-sky-400 
-      text-sky-400 hover:text-sky-50
+      bg-slate-50 hover:bg-slate-400 
+      text-slate-400 hover:text-slate-50
         hover:rounded-md rounded-3xl
         transition-all duration-200 ease-linear
         cursor-pointer shadow-lg  
@@ -15,10 +21,19 @@
 
     .NavbarIcon-ToolTip {
         @apply absolute w-auto p-2 m-2 min-w-max left-14 rounded-md shadow-md
-        text-white bg-sky-600  
+        text-white bg-slate-600  
         text-xs font-bold 
         transition-all duration-100 scale-0 origin-left;
       }
 }
 
 *{box-sizing: border-box;}
+
+
+::-webkit-scrollbar {
+    background-color: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    @apply bg-slate-400 rounded-3xl	;
+  }
