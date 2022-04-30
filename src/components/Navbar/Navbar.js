@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import { MdHome, MdCode, MdPalette, MdMode, MdAccountCircle } from "react-icons/md";
+import { IoMdRose } from "react-icons/io";
 
 const NavbarIcon = ({icon, text = 'ERR Text Parameter Undefined'}) => (
 
@@ -22,9 +23,9 @@ class Navbar extends Component {
   render() {
     return (
         <nav className='fixed top-0 left-0 h-screen w-16 flex flex-col
-        bg-slate-50 shadow-lg justify-evenly'>
+        bg-slate-400 shadow-lg justify-evenly'>
             <a href='index.html'>
-                <NavbarIcon icon={<MdHome size={IconSize}/>} text='Home'/>
+                <NavbarIcon icon={<IoMdRose size={IconSize}/>} text='Home'/>
             </a>
             <a href='index.html'>
                 <NavbarIcon icon={<MdCode size={IconSize}/>} text='Code'/>
