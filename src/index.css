@@ -12,22 +12,25 @@
     .NavbarIcon{
         @apply relative flex items-center justify-center 
         h-12 w-12 mt-2 mb-2 mx-auto  
-      bg-slate-50 hover:bg-slate-400 
-      text-slate-400 hover:text-slate-50
+      bg-slate-200 hover:bg-slate-600 
+      text-slate-600 hover:text-slate-50
         hover:rounded-md rounded-3xl
         transition-all duration-200 ease-linear
-        cursor-pointer shadow-lg  
+        cursor-pointer shadow-lg
     }
 
     .NavbarIcon-ToolTip {
         @apply absolute w-auto p-2 m-2 min-w-max left-14 rounded-md shadow-md
         text-white bg-slate-600  
-        text-xs font-bold 
-        transition-all duration-100 scale-0 origin-left;
+        text-xs
+        transition-all duration-100 scale-0 origin-left
+        
       }
 }
 
-*{box-sizing: border-box;}
+
+
+
 
 
 ::-webkit-scrollbar {
@@ -35,5 +38,5 @@
   }
   
   ::-webkit-scrollbar-thumb {
-    @apply bg-slate-400 rounded-3xl	;
+    @apply bg-slate-600 rounded-3xl	;
   }
