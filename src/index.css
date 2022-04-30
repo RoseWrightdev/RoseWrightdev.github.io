@@ -45,5 +45,5 @@ body {
   }
   
   ::-webkit-scrollbar-thumb {
-    @apply bg-slate-900 rounded-3xl	;
+    @apply bg-slate-700 rounded-3xl	;
   }
