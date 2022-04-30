@@ -10,6 +10,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+
 @layer components{
 
     body{
@@ -21,7 +23,7 @@ body {
         @apply relative flex items-center justify-center 
         h-12 w-12 mt-2 mb-2 mx-auto  
       bg-slate-200 hover:bg-slate-600 
-      text-slate-600 hover:text-slate-50
+      text-slate-800 hover:text-slate-50
         hover:rounded-sm rounded-3xl
         transition-all duration-200 ease-linear
         cursor-pointer shadow-lg
@@ -34,6 +36,8 @@ body {
         transition-all duration-100 scale-0 origin-left
         
       }
+
+      
 }
 
 ::-webkit-scrollbar {
@@ -41,5 +45,5 @@ body {
   }
   
   ::-webkit-scrollbar-thumb {
-    @apply bg-slate-600 rounded-3xl	;
+    @apply bg-slate-900 rounded-3xl	;
   }
