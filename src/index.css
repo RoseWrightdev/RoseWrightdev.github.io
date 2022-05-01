@@ -26,7 +26,7 @@ body {
       text-rose-500 hover:text-rose-50
         hover:rounded-lg rounded-3xl
         transition-all duration-200 ease-linear
-        cursor-pointer shadow-lg
+        cursor-pointer shadow-lg 
     }
 
     .NavbarIcon-ToolTip {
