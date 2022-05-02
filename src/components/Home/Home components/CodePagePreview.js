@@ -7,7 +7,7 @@ class CodePagePreview extends Component{
         return (
         <div>          
                 <a href='index.html'>
-                <div className='Icon1 group hover:bg-slate-100 transition-all duration-200 ease-linear m-[3%] w-auto h-auto flex rounded-3xl p-[1vw] flex-col'>
+                <div className='Icon1 group hover:bg-slate-100 transition-all duration-200 ease-linear mx-auto max-w-[70vw] m-[3%] w-auto h-auto flex rounded-3xl p-[1vw] flex-col'>
 
 <h1 className='Icon1 group-hover:bg-slate-200 Icon group-hover:text-rose-700 group-hover:rounded-3xl transition-all duration-200 ease-linear ml-auto mt-0 relative flex items-center justify-center text-right text-[4.5vw]  px-3 mb-2 bg-slate-200 text-slate-700 shadow-lg rounded-lg '>Computer Science</h1>
 
