@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import redwavesbyRoseWright from './redwavesbyRoseWright.png'
+//import redwavesbyRoseWright from './redwavesbyRoseWright.png'
 
 
 class Landing extends Component{
