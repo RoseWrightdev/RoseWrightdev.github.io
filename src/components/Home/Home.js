@@ -12,7 +12,7 @@ import ArtPagePreview from './Home components/ArtPagePreview'
 class Home extends Component{
     render() {
         return (
-            <div className='ml-16 bg-slate-200 w-auto  overflow-x-hidden flex flex-col'>
+            <div className='ml-16 0 w-auto  overflow-x-hidden flex flex-col'>
                 <CodePagePreview></CodePagePreview>
                     <Divider/>
                 <WritingPagePreview></WritingPagePreview>

@@ -11,18 +11,27 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+body {
+  background-size: 40px 40px;
+  background-image: linear-gradient(to left, #94a3b807 1px, transparent 1px), linear-gradient(to bottom, #94a3b807 1px, transparent 1px);
+}
+
+
+
 
 @layer components{
 
     body{
-        @apply bg-slate-100
+        @apply bg-slate-50
     }
 
-    
+    *::selection {
+      @apply bg-rose-300
+    }
     .NavbarIcon{
         @apply relative flex items-center justify-center 
         h-12 w-12 mt-2 mb-2 mx-auto  
-      bg-slate-300 hover:bg-slate-600 
+      bg-slate-300 hover:bg-slate-400 
       text-rose-500 hover:text-rose-50
         hover:rounded-lg rounded-3xl
         transition-all duration-200 ease-linear
@@ -31,7 +40,7 @@ body {
 
     .NavbarIcon-ToolTip {
         @apply absolute w-auto p-2 m-2 min-w-max left-14 rounded-sm shadow-md
-        text-rose-50 bg-slate-600  
+        text-rose-50 bg-slate-400  
         text-xs
         transition-all duration-100 scale-0 origin-left
         
@@ -41,9 +50,9 @@ body {
 }
 
 ::-webkit-scrollbar {
-  @apply bg-slate-200
+  @apply bg-transparent
   }
   
   ::-webkit-scrollbar-thumb {
-    @apply bg-slate-400 rounded-3xl	;
+    @apply bg-slate-300 rounded-3xl	;
   }
