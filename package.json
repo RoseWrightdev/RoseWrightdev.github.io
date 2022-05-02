@@ -2,12 +2,11 @@
   "name": "rosewrightdev-react-tailwind",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://rosepetaldrift.github.io/",
+  "homepage": "https://rosepetaldrift.githgit add .ub.io/rosewrightdev-react-tailwind/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.1.1",
     "@testing-library/user-event": "^13.5.0",
-    "gh-pages": "^3.2.3",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-icons": "^4.3.1",
@@ -44,6 +43,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.5",
+    "gh-pages": "^3.2.3",
     "postcss": "^8.4.12",
     "tailwindcss": "^3.0.24"
   }
