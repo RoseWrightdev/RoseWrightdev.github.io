@@ -9,7 +9,7 @@ class Footer extends Component{
                             <div className='rounded-lg  bg-slate-100 w-[33vw] h-auto mx-auto mx-1 text-center'>
                                 <h1 className='text-[2.3vw] '>About</h1>
                                 < hr/>
-                                <p className='text-[1.5vw] text-center p-[0.5vw]'> All rights reserved.<br/>©2022.</p>
+                                <p className='text-[1.5vw] text-center p-[0.5vw]'> All rights reserved.<br/>©2022</p>
                             </div>
                             <div className='rounded-lg bg-slate-100 w-[50vw] h-auto mx-auto mx-1 text-center'>
                                 <h1 className='text-[2.3vw]'>Contact</h1>
