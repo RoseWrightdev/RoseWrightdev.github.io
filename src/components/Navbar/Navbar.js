@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import { MdHome, MdCode, MdPalette, MdMode, MdAccountCircle } from "react-icons/md";
+import { MdCode, MdPalette, MdMode, MdAccountCircle } from "react-icons/md";
 import { IoMdRose } from "react-icons/io";
 
 const NavbarIcon = ({icon, text = 'ERR Text Parameter Undefined'}) => (
