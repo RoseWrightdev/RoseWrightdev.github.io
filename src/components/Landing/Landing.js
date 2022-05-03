@@ -13,7 +13,7 @@ class Landing extends Component{
                             <br/>
                             <p className='text-[2.3vw]'>I help people build interactive and compelling user interfaces. I work with a strong focus on simplicity, accessibility and responsive design.</p>
                             <br/>
-                            <a href='index.html' className='underline text-rose-700 italic whitespace-nowrap text-[2vw]'> Read the full article</a>
+                            <a href='index.html' className='underline text-rose-700 italic whitespace-nowrap text-[2vw] hover:bg-rose-100'> Read the full article</a>
 
                         </div>
                         
