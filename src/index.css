@@ -31,7 +31,7 @@ body {
     .NavbarIcon{
         @apply relative flex items-center justify-center 
         h-12 w-12 mt-2 mb-2 mx-auto  
-      bg-slate-300 hover:bg-slate-400 
+      bg-[#B0BCCD] hover:bg-slate-400 
       text-rose-500 hover:text-rose-50
         hover:rounded-lg rounded-3xl
         transition-all duration-200 ease-linear
