@@ -1,5 +1,4 @@
 import React, {Component} from 'react'
-import Divider from '../Divider/Divider.js';
 
 
 //preview pages
@@ -14,9 +13,9 @@ class Home extends Component{
         return (
             <div className='ml-16 0 w-auto  overflow-x-hidden flex flex-col'>
                 <CodePagePreview></CodePagePreview>
-                    <Divider/>
+                <hr className='bg-rose-500 h-[0.5vw] w-[5vw] mx-auto rounded-full'/>
                 <WritingPagePreview></WritingPagePreview>
-                    <Divider/>
+                <hr className='bg-rose-500 h-[0.5vw] w-[5vw] mx-auto rounded-full'/>
                 <ArtPagePreview></ArtPagePreview>
             </div>
             )

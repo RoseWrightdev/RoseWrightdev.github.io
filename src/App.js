@@ -1,19 +1,29 @@
-import HeaderRW from './components/HeaderRW/HeaderRW';
+import Main from './components/Main/Main';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+
 import Navbar from './components/Navbar/Navbar';
-import Landing from './components/Landing/Landing';
-import Home from './components/Home/Home';
-//import Divider from './components/Divider/Divider';
-import Footer from './components/Footer/Footer';
+import HeaderRW from './components/Main Decoration/HeaderRW/HeaderRW';
+import Footer from './components/Main Decoration/Footer/Footer';
+
+import ScrollRestoration from './components/Scroll Restoration/Scroll Restoration';
+
+import ArticleTemplate from './components/Articles/Article Template';
 
 
 function App() {
   return (
     <span>
+      <ScrollRestoration/>
       <HeaderRW></HeaderRW>
-      <Landing></Landing>
-      <Home></Home>
+        <Navbar></Navbar>
+          <Routes>
+            <Route path="/" element={<Main/>} />
+            <Route path="Code" element={<ArticleTemplate />} />
+            <Route path="Articles" element={<ArticleTemplate />} />
+            <Route path="Art" element={<ArticleTemplate />} />
+            <Route path="Contact" element={<ArticleTemplate />} />
+          </Routes>
       <Footer></Footer>
-      <Navbar></Navbar>
     </span>
   );
 };

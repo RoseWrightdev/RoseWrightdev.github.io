@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import { MdCode, MdPalette, MdMode, MdAccountCircle } from "react-icons/md";
 import { IoMdRose } from "react-icons/io";
+import { NavLink } from "react-router-dom";
 
 
 const NavbarIcon = ({icon, text = 'ERR Text Parameter Undefined'}) => (
@@ -23,23 +24,23 @@ class Navbar extends Component {
     
   render() {
     return (
-        <nav className='bg-slate-200 fixed top-0 left-0 h-screen w-16 flex flex-col
+        <nav className='bg-slate-200 fixed top-0 left-0 h-screen max-h-screen w-16 flex flex-col
          shadow-lg justify-evenly'>
-            <a href='index.html'>
+             <NavLink to="/">
                 <NavbarIcon icon={<IoMdRose size={IconSize}/>} text='Home'/>
-            </a>
-            <a href='index.html'>
+            </NavLink>
+            <NavLink to="/Code">
                 <NavbarIcon icon={<MdCode size={IconSize}/>} text='Computer Science'/>
-            </a>
-            <a href='index.html'>
+            </NavLink>
+            <NavLink to="/Articles">
                 <NavbarIcon icon={<MdMode size={IconSize}/>} text='Articles'/>           
-            </a>
-            <a href='index.html'>
+            </NavLink>
+            <NavLink to="/Art">
                 <NavbarIcon icon={<MdPalette size={IconSize}/>} text='Art'/>
-            </a>
-            <a href='index.html'>
+            </NavLink>
+            <NavLink to="/Contact">
                 <NavbarIcon icon={<MdAccountCircle size={IconSize}/>} text='Contact'/>
-            </a>
+            </NavLink>
 
         </nav>
     );
