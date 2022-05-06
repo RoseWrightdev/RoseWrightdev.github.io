@@ -15,7 +15,7 @@ class CompSciLanding extends Component{
                             <div className='flexQ-width-col'>
                                 <p className='text-base indent-10'>Like many programmers I got my start in python. I was inspired by astrophysicists. I always wondered how they visualized and computed their cosmological data sets. When I found out they used Python and MatplotLib I just had to try it myself. This curiosity is what sent me on my journey through computer science and ultimately web development.</p>
                                 <br/>
-                                    <em><quote className='text-[2.3vh]'>"Curiosity is the wick in the candle of learning." - William Arthur Ward</quote></em>
+                                    <em><quote className='text-base'>"Curiosity is the wick in the candle of learning." - William Arthur Ward</quote></em>
                                 <br/>
                                 <br/>
                                 <p className='text-base indent-10'>On this walk through the forest of knowledge curiosity bit me once again. "What's JavaScript?". That question lead me to learn HTML, CSS and JavaScript. With that foundation I soon picked up frameworks like React, Ammo, Three.js and Tailwind. </p>
