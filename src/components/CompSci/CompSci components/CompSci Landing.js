@@ -19,7 +19,7 @@ class CompSciLanding extends Component{
                                 <br/>
                                 <p className='text-[1.6vh] indent-10'>On this walk through the forest of knowledge curiosity bit me once again. "What's JavaScript?". That question lead me to learn HTML, CSS and JavaScript. With that foundation I soon picked up frameworks like React, Ammo, Three.js and Tailwind. </p>
                                 <p className='text-[1.6vh] indent-10'>Before I knew it I went from Fizzbuzz and rock paper scissors to making apps with Electron/ Neutralino. I learned how to plan, stlye and deliver a website from nothing. I learned how to prioritze feautures in my developement pipeline depending on the needs of the project. </p>
-                                <p className='text-[1.6vh] indent-10'>The most imporant thing I found of this journey is my love for web-developement. Guided by curiosity I've learned what I need to succeed. I hope you too can imbrace your curiosity.</p>    
+                                <p className='text-[1.6vh] indent-10'>The most imporant thing I found of this journey is my love for web-developement. Guided by curiosity I've found everything I need to succeed. I hope you too can imbrace your curiosity.</p>    
                             <div/>
                             </div>
                         </div>
