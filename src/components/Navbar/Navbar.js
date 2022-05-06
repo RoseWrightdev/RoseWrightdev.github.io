@@ -29,7 +29,7 @@ class Navbar extends Component {
              <NavLink to="/">
                 <NavbarIcon icon={<IoMdRose size={IconSize}/>} text='Home'/>
             </NavLink>
-            <NavLink to="/Code">
+            <NavLink to="/Computer-Science">
                 <NavbarIcon icon={<MdCode size={IconSize}/>} text='Computer Science'/>
             </NavLink>
             <NavLink to="/Articles">

@@ -17,7 +17,28 @@ body {
 }
 
 
+/*Media*/
+.flexQ-col{
+  flex-direction: row-reverse;
+}
 
+@media screen and (max-width: 1200px) {
+  .flexQ-col{
+    flex-direction: column-reverse;
+  }
+}
+
+
+/*Media*/
+.flexQ-width-col{
+    width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+  .flexQ-width-col{
+    width: 100%;  
+  }
+}
 
 @layer components{
 
