@@ -10,12 +10,13 @@ class CompSciLanding extends Component{
                         <h1 className='text-[6vw] p-3'>Laying the Foundation</h1>
                         {/* class 'flexQ-col' is a media querry which changes the flex direction depending on screen width */}
                         {/* class 'flexQ-width-col' is a media querry which changes the width from 50% to 100% depending on screen width */}
-                        <div className='flexQ-col flex p-6'>
-                            <img className='flexQ-width-col p-3 rounded-3xl' alt='MatplotLib junk Data Visualized with a slope'src={Figure_1}/>
+                        <div className='flexQ-col flex p-[0vw]'>
+                            <img className='flexQ-width-col p-[1vw] rounded-[3vw]' alt='MatplotLib junk Data Visualized with a slope'src={Figure_1}/>
                             <div className='flexQ-width-col'>
                                 <p className='text-[1.6vh] indent-10'>Like many programmers I got my start in python. I was inspired by astrophysicists. I always wondered how they visualized and computed their cosmological data sets. When I found out they used Python and MatplotLib I just had to try it myself. This curiosity is what sent me on my journey through computer science and ultimately web development.</p>
                                 <br/>
-                                <p className='text-[1.6vh]'>"Curiosity is the wick in the candle of learning." - William Arthur Ward</p>
+                                    <em><quote className='text-[1.6vh]'>"Curiosity is the wick in the candle of learning." - William Arthur Ward</quote></em>
+                                <br/>
                                 <br/>
                                 <p className='text-[1.6vh] indent-10'>On this walk through the forest of knowledge curiosity bit me once again. "What's JavaScript?". That question lead me to learn HTML, CSS and JavaScript. With that foundation I soon picked up frameworks like React, Ammo, Three.js and Tailwind. </p>
                                 <p className='text-[1.6vh] indent-10'>Before I knew it I went from Fizzbuzz and rock paper scissors to making apps with Electron/ Neutralino. I learned how to plan, stlye and deliver a website from nothing. I learned how to prioritze feautures in my developement pipeline depending on the needs of the project. </p>
