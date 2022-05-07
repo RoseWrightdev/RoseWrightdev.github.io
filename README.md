@@ -2,7 +2,6 @@
 Made in React and Tailwind.
 
 ## Known Issues
-- Missing image alt text for 2 images
 - Tab Indexing not configured on navbar
 
 ## Future content
