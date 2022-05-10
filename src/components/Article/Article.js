@@ -1,14 +1,15 @@
 import React, {Component} from 'react'
+import { Outlet } from "react-router-dom";
 
-class ArticleTemplate extends Component{
+class Article extends Component{
     render() {
         return (
             <div className= 'h-screen w-auto'>
-               
+               <Outlet />
             </div>
             )
     }
 
 }
 
-export default ArticleTemplate
+export default Article

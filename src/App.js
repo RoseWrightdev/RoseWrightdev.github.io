@@ -7,7 +7,7 @@ import Footer from './components/Main Decoration/Footer/Footer';
 
 import ScrollRestoration from './components/Scroll Restoration/Scroll Restoration';
 
-import ArticleTemplate from './components/Articles/Article Template';
+import Article from './components/Article/Article';
 import CompSci from './components/CompSci/CompSci';
 
 
@@ -20,9 +20,10 @@ function App() {
           <Routes>
             <Route path="/" element={<Main/>} />
             <Route path="Computer-Science" element={<CompSci />} />
-            <Route path="Articles" element={<ArticleTemplate />} />
-            <Route path="Art" element={<ArticleTemplate />} />
-            <Route path="Contact" element={<ArticleTemplate />} />
+            
+            <Route path="Art" element={<Article />} />
+            <Route path="Contact" element={<Article />} />
+            <Route path="Articles" element={<Article />} />
           </Routes>
       <Footer></Footer>
     </span>
