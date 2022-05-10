@@ -11,3 +11,5 @@ Made in React and Tailwind.
 - Tailwind tips and tricks
 - Basic to advanced HTML and CSS guides
 - Articles like "Why Electron isn't always the best choice for Javascript apps" 
+- Dark Mode hook
+- Scroll to top button
