@@ -1,5 +1,4 @@
 import React, {Component} from 'react'
-import redwavesbyRoseWright from './CompSci component Images/redwavesbyRoseWright.png'
 import Figure_1 from './CompSci component Images/Figure_1.png'
 class CompSciLanding extends Component{
     render() {
