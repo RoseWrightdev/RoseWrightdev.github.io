@@ -14,7 +14,7 @@ class Contact extends Component{
                         {/* class 'flexQ-width-col' is a media querry which changes the width from 50% to 100% depending on screen width */}
                         <div className='flexQ-col flex p-[0vw]'>
                             <div className='flexQ-width-col'>
-                                <h2 className=' text-lg text-center text-rose-600'>Contact me with questions @RoseSophieWright@gmail.com </h2>
+                                <h2 className=' text-lg text-center text-rose-600'>Contact me with questions at RoseSophieWright@gmail.com </h2>
                                 <br/>
                                 <p className='text-base indent-10'>If you're a hiring manager or a recruiter I recommend you tag your emails [BUSINESS] for faster replies. I'll get back to you 5-7 business days.</p>
                             <div/>
