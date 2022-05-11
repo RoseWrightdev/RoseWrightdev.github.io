@@ -6,6 +6,7 @@ import HeaderRW from './components/Main Decoration/HeaderRW/HeaderRW';
 import Footer from './components/Main Decoration/Footer/Footer';
 
 import ScrollRestoration from './components/Scroll Restoration/Scroll Restoration';
+import PlaceHolder from './components/Placeholder/PlaceHolder';
 
 import Article from './components/Article/Article';
 import CompSci from './components/CompSci/CompSci';
@@ -21,8 +22,8 @@ function App() {
             <Route path="/" element={<Main/>} />
             <Route path="Computer-Science" element={<CompSci />} />
             
-            <Route path="Art" element={<Article />} />
-            <Route path="Contact" element={<Article />} />
+            <Route path="Art" element={<PlaceHolder />} />
+            <Route path="Contact" element={<PlaceHolder />} />
             <Route path="Articles" element={<Article />} />
           </Routes>
       <Footer></Footer>

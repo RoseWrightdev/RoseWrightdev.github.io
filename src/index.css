@@ -51,6 +51,38 @@ body {
     *::selection {
       @apply bg-rose-300
     }
+    .ArticleContainer{
+      max-height: 200vh;
+      display: grid;
+      grid-template-rows: 23vw 23vw 23vw 23vw 23vw 23vw 23vw 23vw 23vw;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      column-gap: 0.5vw;
+      row-gap: 0.5vw;
+    }
+    @media screen and (max-width: 1000px) {
+      .ArticleContainer{
+        max-height: none;
+
+        display: grid;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        column-gap: 0.5vw;
+        row-gap: 0.5vw;
+      }
+    }
+
+
+
+    .Article {
+      background: #444;
+      border-radius: 10px;  
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 1vw;
+      @apply bg-slate-200
+
+    }
+
     .NavbarIcon{
         @apply relative flex items-center justify-center 
         h-12 w-12 mt-2 mb-2 mx-auto  
