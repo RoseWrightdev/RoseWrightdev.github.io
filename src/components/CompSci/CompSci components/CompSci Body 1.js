@@ -30,7 +30,7 @@ class CompSciBody1 extends Component{
                                 <br/>
                                 <br/>
                                 <a href='https://rosewright.dev/RoseWrightdev-Example-2/'>
-                                <img className=' p-[1vw] rounded-[4vw] ' alt='A twisting polygon made up of 21 cubes intersecting and spining on both of their axises. These cubes range in color from light to dark purple.'src={s3dsim}/>
+                                <img className=' p-[1vw] rounded-[4vw] ' alt='9 cubes on a plane the fades into the distance. These cubes start off high then fall in a moon like ggravity simulation.'src={s3dsim}/>
                                 </a>
                         </div>
                     </div>

@@ -29,16 +29,16 @@ class Navbar extends Component {
              <NavLink to="/">
                 <NavbarIcon icon={<IoMdRose size={IconSize}/>} text='Home'/>
             </NavLink>
-            <NavLink to="/Computer-Science">
+            <NavLink to="Computer-Science">
                 <NavbarIcon icon={<MdCode size={IconSize}/>} text='Computer Science'/>
             </NavLink>
-            <NavLink to="/Articles">
+            <NavLink to="Articles">
                 <NavbarIcon icon={<MdMode size={IconSize}/>} text='Articles'/>           
             </NavLink>
-            <NavLink to="/Art">
+            <NavLink to="Art">
                 <NavbarIcon icon={<MdPalette size={IconSize}/>} text='Art'/>
             </NavLink>
-            <NavLink to="/Contact">
+            <NavLink to="Contact">
                 <NavbarIcon icon={<MdAccountCircle size={IconSize}/>} text='Contact'/>
             </NavLink>
 

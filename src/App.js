@@ -10,6 +10,8 @@ import PlaceHolder from './components/Placeholder/PlaceHolder';
 
 import Article from './components/Article/Article';
 import CompSci from './components/CompSci/CompSci';
+import Art from './components/Art/Art'
+import Contact from './components/Contact/Contact';
 
 
 function App() {
@@ -22,8 +24,8 @@ function App() {
             <Route path="/" element={<Main/>} />
             <Route path="Computer-Science" element={<CompSci />} />
             
-            <Route path="Art" element={<PlaceHolder />} />
-            <Route path="Contact" element={<PlaceHolder />} />
+            <Route path="Art" element={<Art />} />
+            <Route path="Contact" element={<Contact />} />
             <Route path="Articles" element={<Article />} />
           </Routes>
       <Footer></Footer>
