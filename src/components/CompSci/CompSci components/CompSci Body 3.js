@@ -11,7 +11,7 @@ class CompSciBody3 extends Component{
                             {/* class 'flexQ-width-col' is a media querry which changes the width from 50% to 100% depending on screen width */}
                         <div className=' flex flex-col p-[0vw]'>
                                 <br/>
-                                <p className='text-base indent-10'>RoseWrightdev was made in React and Tailwind. It truely is my favorite combination! I figured the best way to show my react skills was to make a website! </p>
+                                <p className='text-base indent-10'>RoseWrightdev was made in React and Tailwind. It truely is my favorite combination! I figured the best way to show my react skills was to make a website! I JavaScript frameworks are the best way to make a website at scale. Even with best practices it's never a good time when you see a 10,000 line css file. Plain CSS and HTML are unscalable, unpractical, and unmanageable.</p>
                             <img className=' p-[1vw] rounded-[3vw] ' alt='Red Waves by Rose Wright is an art piece defined by its wave like sin and cos functions visualized with Three.js'src={TailwindReactRoseWrightdev}/>
                         </div>
                     </div>
