@@ -11,15 +11,15 @@ class Article extends Component{
 </div>          
             <div className='ml-16  	'>
                 <div className='justify-center ArticleContainer'>
-                <div className='Article italic bold text-slate-500 text-[2vw]'>Coming soon...</div>
-                <div className='Article italic bold text-slate-500 text-[2vw]'>Coming soon...</div>
-                <div className='Article italic bold text-slate-500 text-[2vw]'>Coming soon...</div>
-                <div className='Article italic bold text-slate-500 text-[2vw]'>Coming soon...</div>
-                <div className='Article italic bold text-slate-500 text-[2vw]'>Coming soon...</div>
-                <div className='Article italic bold text-slate-500 text-[2vw]'>Coming soon...</div>
-                <div className='Article italic bold text-slate-500 text-[2vw]'>Coming soon...</div>
-                <div className='Article italic bold text-slate-500 text-[2vw]'>Coming soon...</div>
-                <div className='Article italic bold text-slate-500 text-[2vw]'>Coming soon...</div>
+                <div className='Article italic bold text-slate-500 text-[2vw]'></div>
+                <div className='Article italic bold text-slate-500 text-[2vw]'></div>
+                <div className='Article italic bold text-slate-500 text-[2vw]'></div>
+                <div className='Article italic bold text-slate-500 text-[2vw]'></div>
+                <div className='Article italic bold text-slate-500 text-[2vw]'></div>
+                <div className='Article italic bold text-slate-500 text-[2vw]'></div>
+                <div className='Article italic bold text-slate-500 text-[2vw]'></div>
+                <div className='Article italic bold text-slate-500 text-[2vw]'></div>
+                <div className='Article italic bold text-slate-500 text-[2vw]'></div>
                 </div>
             </div>
         </div>

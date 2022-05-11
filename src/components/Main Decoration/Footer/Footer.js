@@ -3,7 +3,7 @@ class Footer extends Component{
     render() {
         return (
             <div>
-                <div className='bg-slate-200 w-auto ml-16 p-1'>
+                <div className='bg-slate-200 w-auto ml-16 p-[0.5vw]'>
                         <div className='flex flex-row m-[5vw] mt-[3vw] mb-[3vh] justify-evenly'>
                             <div className='rounded-lg  bg-slate-100 w-[33vw] h-auto  text-center'>
                                 <h1 className='text-[2.3vw] text-rose-700 '>About</h1>
