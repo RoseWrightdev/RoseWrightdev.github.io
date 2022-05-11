@@ -116,9 +116,9 @@ body {
 }
 
 ::-webkit-scrollbar {
-  @apply bg-transparent
+  @apply bg-transparent w-[0.5vw]
   }
   
   ::-webkit-scrollbar-thumb {
-    @apply bg-slate-300 rounded-3xl	;
+    @apply bg-slate-700 rounded-3xl	;
   }
