@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.7a273e67.css",
-    "main.js": "/static/js/main.db5ce162.js",
+    "main.css": "/static/css/main.71f20642.css",
+    "main.js": "/static/js/main.5ac74a82.js",
     "static/media/TailwindReactRoseWrightdev.png": "/static/media/TailwindReactRoseWrightdev.970bdb9d36191ff96d8c.png",
     "static/media/redwavesbyRoseWright.png": "/static/media/redwavesbyRoseWright.6919b2b2a493509f8b48.png",
     "static/media/Three3d.png": "/static/media/Three3d.eb22e6c09e80930c5418.png",
@@ -10,11 +10,11 @@
     "static/media/Figure_1.png": "/static/media/Figure_1.2f6292d0213c3cc20c45.png",
     "static/media/Example1.png": "/static/media/Example1.cd0d25f30a9bd1944b7d.png",
     "index.html": "/index.html",
-    "main.7a273e67.css.map": "/static/css/main.7a273e67.css.map",
-    "main.db5ce162.js.map": "/static/js/main.db5ce162.js.map"
+    "main.71f20642.css.map": "/static/css/main.71f20642.css.map",
+    "main.5ac74a82.js.map": "/static/js/main.5ac74a82.js.map"
   },
   "entrypoints": [
-    "static/css/main.7a273e67.css",
-    "static/js/main.db5ce162.js"
+    "static/css/main.71f20642.css",
+    "static/js/main.5ac74a82.js"
   ]
 }
