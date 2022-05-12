@@ -8,7 +8,7 @@ class Footer extends Component{
                             <div className='rounded-lg  bg-slate-100 w-[33vw] h-auto  text-center'>
                                 <h1 className='text-[2.3vw] text-rose-700 '>About</h1>
                                 < hr/>
-                                <a className='text-[1.5vw] text-center p-[0.5vw] text-slate-500 underline text-rose-500 italic' href='https://github.com/rosepetaldrift/rosepetaldrift.github.io/blob/master/LICENSE'> RoseWright.dev uses the MIT LICENSE</a>
+                                <a className='text-[1.5vw] text-center p-[0.5vw] text-slate-500 underline text-rose-500 italic' href='https://github.com/rosepetaldrift/rosepetaldrift.github.io/blob/master/LICENSE'>MIT LICENSE</a>
                             </div>
                             <div className='rounded-lg bg-slate-100 w-[50vw] h-auto mx-5  text-center'>
                                 <h1 className='text-[2.3vw]  text-rose-700 '>Contact</h1>
