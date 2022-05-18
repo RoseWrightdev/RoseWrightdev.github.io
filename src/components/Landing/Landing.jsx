@@ -2,6 +2,9 @@ import React, {Component} from 'react'
 import Foundation from './Landing components/Foundation/Foundation'
 import { NavLink } from "react-router-dom";
 import { Link as smoothLink, animateScroll as scroll } from "react-scroll";
+import { AiOutlineDown } from "react-icons/ai";
+
+//AiOutlineDown
 
 
 class Landing extends Component{
@@ -26,7 +29,7 @@ class Landing extends Component{
                         offset={-70}
                         duration={500}
                         className='ml-auto'>
-                    <button className='p-2 mr-auto ml-1 my-1 text-xl font-bold border-comp-100 border-2'>Get to Know Me</button>
+                    <button className='p-2 mr-auto ml-1 my-1 text-xl font-bold border-comp-100 border-2'><span className='whitespace-nowrap'>Get to Know Me ⬇</span></button>
                     </smoothLink>
                     </div>
                 </div>
