@@ -8,7 +8,7 @@ class Contact extends Component{
                     <div className='z-10 mediaQHaft frosted'>
                         <br/>
                         <p className='ml-10 text-1xl rounded-lg font-bold m-1 italic'><span className='text-main-100'>&#60;</span> <span className='decoration-comp-100 underline-offset-[3.5px] underline'>Contact</span></p>
-                        <h1 className='p-10 pt-5 header center rounded-lg font-semibold '>Let's get to work</h1>
+                        <h1 className='p-10 pt-5 header center rounded-lg font-semibold '>Let's get to work.</h1>
                         <div className='ml-10'>
                         <h1 className='text-1xl rounded-lg m-1 p-1 font-bold select-text'><span className='select-auto underline decoration-main-100 italic font-semibold'>RoseSophieWright@gmail.com</span> 
                         </h1>
