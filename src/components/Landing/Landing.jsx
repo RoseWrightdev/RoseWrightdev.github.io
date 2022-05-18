@@ -29,7 +29,7 @@ class Landing extends Component{
                         offset={-70}
                         duration={500}
                         className='ml-auto'>
-                    <button className='p-2 mr-auto ml-1 my-1 text-xl font-bold border-comp-100 border-2'><span className='whitespace-nowrap'>Get to Know Me ⬇</span></button>
+                    <button className='p-2 mr-auto ml-1 my-1 text-xl font-bold border-comp-100 border-2 cursor-default'><span className='whitespace-nowrap'>Get to Know Me ⬇</span></button>
                     </smoothLink>
                     </div>
                 </div>
