@@ -1,95 +1,135 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Poppins:ital@0;1&display=swap');
 
-
-body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/*Mobile/ Desktop Media*/
+.none{
+  display: none;
 }
 
-body {
-  background-size: 3vh 3vh;
-  background-image: linear-gradient(to left, #94a3b811 1px, transparent 1px), linear-gradient(to bottom, #94a3b811 1px, transparent 1px);
+.DT_ONLY{
+ display: flex;
 }
 
-
-/*Media*/
-.flexQ-col{
-  flex-direction: row-reverse;
-}
-
-@media screen and (max-width: 1300px) {
-  .flexQ-col{
-    flex-direction: column-reverse;
+@media screen and (max-width: 1200px) {
+  .DT_ONLY{
+  display: none;
   }
 }
 
-
-/*Media*/
-.flexQ-width-col{
+.mediaQHaft{
+  width: 50%;
+ }
+ 
+ @media screen and (max-width: 1200px) {
+   .mediaQHaft{
     width: 100%;
+  }
+ }
+
+ .mediaQFlexRow{
+display: flex;
+flex-direction: row;
+ }
+ 
+ @media screen and (max-width: 1200px) {
+  .mediaQFlexRow{
+    display: flex;
+    flex-direction: column;
+  }
+ }
+
+ .mediaQFlexRow2{
+  display: flex;
+  flex-direction: row-reverse;
+   }
+   
+   @media screen and (max-width: 1200px) {
+    .mediaQFlexRow2{
+      display: flex;
+      flex-direction: column;
+    }
+   }
+
+ .mediaQNavDT{
+  display: flex;
+ }
+ 
+ @media screen and (max-width: 1200px) {
+   .mediaQNavDT{
+    display: none;
+  }
+ }
+
+ .mediaQNavMB{
+  display: none;
+ }
+ 
+ @media screen and (max-width: 1200px) {
+   .mediaQNavMB{
+    display: flex;
+  }
+ }
+
+ .mobileNav{
+  margin-left: 0;
+ }
+ 
+ @media screen and (max-width: 1200px) {
+   .mobileNav{
+    margin-left: 64px;
+  }
+ }
+
+
+*{
+  color: #2f2e41;
+  font-family: Poppins;
+  overflow-x: hidden;
+  user-select: none;
+
 }
 
-@media screen and (max-width: 1300px) {
-  .flexQ-width-col{
-    width: 100%;  
-  }
+*::selection {
+  background-color: #ff68844a;
 }
+
+.containerGen{
+  margin-top: 36vh;
+}
+
 
 @layer components{
 
- 
-
-    body{
-        @apply bg-slate-50
+  
+    .Poppins{
+      font-family: Poppins;
     }
 
-    *::selection {
-      @apply bg-rose-300
-    }
-    .ArticleContainer{
-      max-height: 200vh;
-      display: grid;
-      grid-template-rows: 23vw 23vw 23vw 23vw 23vw 23vw 23vw 23vw 23vw;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      column-gap: 0.5vw;
-      row-gap: 0.5vw;
-    }
-    @media screen and (max-width: 1000px) {
-      .ArticleContainer{
-        max-height: none;
-
-        display: grid;
-        grid-template-columns: repeat(1, minmax(0, 1fr));
-        column-gap: 0.5vw;
-        row-gap: 0.5vw;
-      }
+    .Comfortaa{
+      font-family: Comfortaa;
     }
 
+    /*Font Size*/
+.header{
+  @apply text-5xl
+}
 
+ @media screen and (max-width: 1200px) {
+   .header{
+    @apply text-3xl
+  }
+ }
 
-    .Article {
-      border-radius: 10px;  
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin: 1vw;
-      @apply bg-slate-100
-
-    }
 
     .NavbarIcon{
         @apply relative flex items-center justify-center 
         h-12 w-12 mt-2 mb-2 mx-auto  
-      bg-[#B0BCCD] hover:bg-slate-400 
-      text-rose-500 hover:text-rose-50
+      bg-[#e6e6e6] 
         hover:rounded-lg rounded-3xl
         transition-all duration-200 ease-linear
-        cursor-pointer shadow-lg 
+        cursor-pointer 
     }
 
     .NavbarIcon-ToolTip {
@@ -104,9 +144,38 @@ body {
 }
 
 ::-webkit-scrollbar {
-  @apply bg-transparent w-[0.5vw]
+  @apply bg-transparent w-[1.5vw]
   }
   
   ::-webkit-scrollbar-thumb {
-    @apply bg-slate-700 rounded-3xl	;
+    background-color: #2f2e41;
+    border-radius: 1000px;
+    border: 0.25vw solid white;
   }
+
+  /*Background Images*/
+
+  .polyBlue{
+    background-image: url(polyBlue.png);
+  }
+
+  .polyPink{
+    background-image: url(polyPink.png);
+  }
+
+  .frosted{
+      background-color: rgba(255, 255, 255, 0.7);  
+      backdrop-filter: blur(7px);
+  }
+
+  .pinkPeaks{
+    background-image: url(layered-peaks-haikei.png);
+    background-position-y: 100%;
+    background-repeat: no-repeat;
+    background-repeat: repeat-x;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-top-left-radius: 100vh;
+    border-top-right-radius: 100vh;
+    padding-top: 2rem;
+    backdrop-filter: blur(7px);
+    }

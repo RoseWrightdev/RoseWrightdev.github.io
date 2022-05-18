@@ -1,13 +1,14 @@
 import React, {Component} from 'react'
 
-class PlaceHolder extends Component{
+class Background extends Component{
     render() {
         return (
-            <div className= 'h-screen w-auto'>
+            <div>
+             
             </div>
             )
     }
 
 }
 
-export default PlaceHolder
+export default Background

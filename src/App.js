@@ -1,34 +1,24 @@
 import Main from './components/Main/Main';
+import Landing from './components/Landing/Landing';
+import Background from './components/Background/Background';
+import Navbar from './components/Navbar/Navbar';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
-import Navbar from './components/Navbar/Navbar';
-import HeaderRW from './components/Main Decoration/HeaderRW/HeaderRW';
-import Footer from './components/Main Decoration/Footer/Footer';
 
 import ScrollRestoration from './components/Scroll Restoration/Scroll Restoration';
-import PlaceHolder from './components/Placeholder/PlaceHolder';
-
-import Article from './components/Article/Article';
-import CompSci from './components/CompSci/CompSci';
-import Art from './components/Art/Art'
-import Contact from './components/Contact/Contact';
 
 
 function App() {
   return (
     <span>
+
       <ScrollRestoration/>
-      <HeaderRW></HeaderRW>
-        <Navbar></Navbar>
+      <Navbar/>
+      <Background/>
           <Routes>
-            <Route path="/" element={<Main/>} />
-            <Route path="Computer-Science" element={<CompSci />} />
-            
-            <Route path="Art" element={<Art />} />
-            <Route path="Contact" element={<Contact />} />
-            <Route path="Articles" element={<Article />} />
+            <Route path="/" element={<Landing/>} />
           </Routes>
-      <Footer></Footer>
+
     </span>
   );
 };
