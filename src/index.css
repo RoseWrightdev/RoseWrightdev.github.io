@@ -78,7 +78,7 @@ flex-direction: row;
  
  @media screen and (max-width: 1200px) {
    .mobileNav{
-    margin-left: 64px;
+    margin-left: max(64px, 1%);
   }
  }
 

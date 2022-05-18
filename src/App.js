@@ -1,6 +1,6 @@
-import Main from './components/Main/Main';
 import Landing from './components/Landing/Landing';
-import Background from './components/Background/Background';
+import Contact from './components/Landing/Landing components/Contact/Contact';
+import Foundation from './components/Landing/Landing components/Foundation/Foundation';
 import Navbar from './components/Navbar/Navbar';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
@@ -14,11 +14,11 @@ function App() {
 
       <ScrollRestoration/>
       <Navbar/>
-      <Background/>
           <Routes>
             <Route path="/" element={<Landing/>} />
+            <Route path="/About" element={<Foundation/>} />
+            <Route path="/Contact" element={<Contact/>} />
           </Routes>
-
     </span>
   );
 };
