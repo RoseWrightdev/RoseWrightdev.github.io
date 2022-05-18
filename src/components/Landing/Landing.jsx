@@ -8,7 +8,7 @@ class Landing extends Component{
             <div className='mobileNav '>
             <div className='mt-3 m-5'>
             <div className='flex'>
-                <div className='w-1/2 z-10 mediaQHaft'>
+                <div className='w-1/2 min-h-[25vw] z-10 mediaQHaft'>
                     <h1 className='p-5 header rounded-lg font-semibold '>I help people build interactive and compelling websites.</h1>
                     <div className='ml-5'>
                     <h2 className='text-1xl rounded-lg font-medium m-1'>I work with a strong focus on simplicity, accessibility <br/> and responsive design.</h2>
