@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 class Contact extends Component{
     render() {
         return (
-            <div className='overflow-x-hidden mobileNav'>
+            <div className='overflow-x-hidden'>
             <div className='bg-white polyPink'>
                 <div className='mediaQFlexRow'>
                     <div className='z-10 mediaQHaft frosted'>
