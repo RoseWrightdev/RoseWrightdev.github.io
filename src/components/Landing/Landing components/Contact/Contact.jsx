@@ -12,7 +12,7 @@ class Contact extends Component{
                         <div className='ml-10'>
                         <h1 className='text-1xl rounded-lg m-1 p-1 font-bold select-text'><span className='select-auto underline decoration-main-100 italic font-semibold'>RoseSophieWright@gmail.com</span> 
                         </h1>
-                        <p className='text-1xl rounded-lg indent-10 m-1 p-1 font-bold select-text'>Want me on your project? Don't be afraid to shoot me an email! I am a freelancer but I am open to offers perfering part-time, and interinship positions. For these inquires lable your email BUSINESS in all caps. Want me to review your source code? Lable your email SOICAL.</p>
+                        <p className='text-1xl rounded-lg indent-10 m-1 p-1 font-bold select-text'>Want me on your project? Don't be afraid to shoot me an email! I am a freelancer but I am open to offers preferring part-time, and internship positions. For these inquires lable your email BUSINESS in all caps. Want me to review your source code? (or you have a really cute pet I must see) that lable your email SOCIAL.</p>
                         <br/>
                         <br/>
                         </div>

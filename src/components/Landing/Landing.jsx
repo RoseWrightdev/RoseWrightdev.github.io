@@ -3,7 +3,6 @@ import Foundation from './Landing components/Foundation/Foundation'
 import Contact from './Landing components/Contact/Contact';
 import { NavLink } from "react-router-dom";
 import { Link as smoothLink, animateScroll as scroll } from "react-scroll";
-import { AiOutlineDown } from "react-icons/ai";
 
 //AiOutlineDown
 
