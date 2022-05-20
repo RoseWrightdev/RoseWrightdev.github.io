@@ -26,16 +26,7 @@ class Navbar extends Component {
   render() {
     return (
         <span>
-        <nav className='bg-white fixed top-0 left-0 h-screen max-h-screen w-16 mediaQNavMB flex-col
-        shadow-lg justify-between'>
-             <NavLink to="/">
-                <NavbarIcon icon={<IoMdRose size={IconSize}/>} text='Home'/>
-            </NavLink>
-            <NavLink to="/Contact">
-                <NavbarIcon icon={<MdAlternateEmail size={IconSize}/>} text='Contact'/>
-            </NavLink>
-        </nav>
-        <nav className='bg-[#ffffff50] z-50 top-0 left-0 h-auto max-h-screen w-screen flex flex-row mediaQNavDT'>
+        <nav className='bg-[#ffffff50] z-50 top-0 left-0 h-auto max-h-screen w-screen flex flex-row'>
         <NavLink to="/" className='justify-start'>
             <h1 className='justify-start m-5 flex font-black'><IoMdRose className='m-1 text-main-100' size={16}></IoMdRose>RoseWright.dev</h1>
         </NavLink>

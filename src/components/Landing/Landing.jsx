@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import Foundation from './Landing components/Foundation/Foundation'
+import Contact from './Landing components/Contact/Contact';
 import { NavLink } from "react-router-dom";
 import { Link as smoothLink, animateScroll as scroll } from "react-scroll";
 import { AiOutlineDown } from "react-icons/ai";
@@ -10,7 +11,7 @@ import { AiOutlineDown } from "react-icons/ai";
 class Landing extends Component{
     render() {
         return (
-            <div className='mobileNav '>
+            <div>
             <div className='mt-3 m-5'>
             <div className='flex'>
                 <div className='w-1/2 min-h-[25vw] z-10 mediaQHaft'>
@@ -39,6 +40,7 @@ class Landing extends Component{
             </div>
             <svg id="visual" viewBox="0 0 3840 100" width="3840" height="100"><path d="M0 23L549 49L1097 20L1646 20L2194 44L2743 23L3291 45L3840 47L3840 101L3291 101L2743 101L2194 101L1646 101L1097 101L549 101L0 101Z" fill="#e6e6e6"></path><path d="M0 46L549 40L1097 43L1646 34L2194 32L2743 51L3291 35L3840 48L3840 101L3291 101L2743 101L2194 101L1646 101L1097 101L549 101L0 101Z" fill="#cfc4ee"></path><path d="M0 67L549 51L1097 52L1646 64L2194 50L2743 49L3291 61L3840 58L3840 101L3291 101L2743 101L2194 101L1646 101L1097 101L549 101L0 101Z" fill="#b4a3f4"></path><path d="M0 68L549 70L1097 71L1646 68L2194 73L2743 76L3291 78L3840 74L3840 101L3291 101L2743 101L2194 101L1646 101L1097 101L549 101L0 101Z" fill="#9583fa"></path><path d="M0 75L549 82L1097 80L1646 77L2194 79L2743 77L3291 79L3840 82L3840 101L3291 101L2743 101L2194 101L1646 101L1097 101L549 101L0 101Z" fill="#6c63ff"></path></svg>
             <Foundation/>
+            <Contact/>
             </div>
             )
     }
