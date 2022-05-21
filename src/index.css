@@ -5,6 +5,16 @@
 
 /*Mobile/ Desktop Media*/
 
+.DT_ONLY{
+  display: block;
+ }
+ 
+ @media screen and (max-width: 1200px) {
+   .DT_ONLY{
+    display: none;
+  }
+ }
+
 .mediaQHaft{
   width: 50%;
  }
