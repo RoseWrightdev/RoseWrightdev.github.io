@@ -22,7 +22,7 @@ class Landing extends Component{
                     </NavLink>
                    
 
-                       <a href='#GetToKnowMe' className='p-1'> <button className='p-2 mr-auto ml-1 my-1 text-xl font-bold border-comp-100 border-2' ><span className='whitespace-nowrap'>Get to Know Me</span></button>
+                       <a href='#GetToKnowMe' className='p-1'> <button className='p-2 mr-auto ml-1 my-3 text-xl font-bold border-comp-100 border-2' ><span className='whitespace-nowrap'>Get to Know Me</span></button>
                        </a>
                     </div>
                 </div>
