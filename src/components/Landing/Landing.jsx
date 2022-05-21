@@ -16,9 +16,10 @@ class Landing extends Component{
                     <h2 className='text-1xl rounded-lg font-medium m-1'>I work with a strong focus on simplicity, accessibility <br/> and responsive design.</h2>
                     <br/>
                     <NavLink to="/Contact" className='justify-start'>
-                    </NavLink>
+                    
 
                     <a className='p-2 mr-auto ml-1 my-1 text-xl font-bold bg-main-100' href='#Contact'>Contact</a>
+                    </NavLink>
                    
 
                        <a href='#GetToKnowMe' className='p-1'> <button className='p-2 mr-auto ml-1 my-1 text-xl font-bold border-comp-100 border-2' ><span className='whitespace-nowrap'>Get to Know Me</span></button>
