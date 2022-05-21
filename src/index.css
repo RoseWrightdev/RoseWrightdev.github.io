@@ -4,19 +4,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Poppins:ital@0;1&display=swap');
 
 /*Mobile/ Desktop Media*/
-.none{
-  display: none;
-}
-
-.DT_ONLY{
- display: flex;
-}
-
-@media screen and (max-width: 1200px) {
-  .DT_ONLY{
-  display: none;
-  }
-}
 
 .mediaQHaft{
   width: 50%;
@@ -51,37 +38,6 @@ flex-direction: row;
       flex-direction: column;
     }
    }
-
- .mediaQNavDT{
-  display: flex;
- }
- 
- @media screen and (max-width: 1200px) {
-   .mediaQNavDT{
-    display: none;
-  }
- }
-
- .mediaQNavMB{
-  display: none;
- }
- 
- @media screen and (max-width: 1200px) {
-   .mediaQNavMB{
-    display: flex;
-  }
- }
-
- .mobileNav{
-  margin-left: 0;
- }
- 
- @media screen and (max-width: 1200px) {
-   .mobileNav{
-    margin-left: max(64px, 1%);
-  }
- }
-
 
  html {
   scroll-behavior: smooth;
