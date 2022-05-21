@@ -8,7 +8,7 @@ class Foundation extends Component{
                     <div className='z-10 mediaQHaft frosted'>
                         <br/>
                         <p className='ml-10 text-1xl rounded-lg font-bold m-1 italic'><span className='text-main-100'>&#60;</span> <span className='decoration-main-100 underline-offset-[3.5px] underline' >Get to Know Me</span></p>
-                        <h1 className='p-10 pt-5 header center rounded-lg font-semibold'>Experienced with Javascript, React and Tailwind. </h1>
+                        <h1 tabIndex={3} className='p-10 pt-5 header center rounded-lg font-semibold'>Experienced with Javascript, React and Tailwind. </h1>
                         <div className='ml-10'>
                         <h2 className='text-1xl rounded-lg font-bold m-1'>With my foundation in Javascript, Three.js and GIT I deliver elegant, maintainable design systems for the future. </h2>
                         <br/>
@@ -27,7 +27,7 @@ class Foundation extends Component{
                 <div className='z-10 mediaQHaft'>
                         <br/>
                         <p className='ml-10 text-1xl rounded-lg font-bold m-1 italic'><span className='text-main-100'>&#60;</span> <span className='decoration-comp-100 underline-offset-[3.5px] underline'>Get to Know Me</span></p>
-                        <h1 className='p-10 pt-5 header center rounded-lg font-semibold '>That's nice but <span className='whitespace-nowrap'>who is Rose?</span></h1>
+                        <h1 tabIndex={4} className='p-10 pt-5 header center rounded-lg font-semibold '>That's nice but <span className='whitespace-nowrap'>who is Rose?</span></h1>
                         <div className='ml-10'>
                         <p className='text-1xl rounded-lg indent-10 m-1'>Well, I like cats, rasberry tea and bagels... but you wanted more than that right? Born in New Jersey USA, rasied in Atlanta and now living as an adult in Minnasota. I got my start in computer science at a young age. Since 2016, I've been tinkering with theorectical hardware configurations. Dreaming of one day owning my own <span className='whitespace-nowrap'>AMD FX-6300</span> or even an EPYC 7001. It wasn't until I learned astrophysicists used Python that I got interested in programming.<br/><br/> And really the rest is history...</p>
 
@@ -47,7 +47,7 @@ class Foundation extends Component{
                         <div className='z-10 mediaQHaft'>
                         <br/>
                         <p className='ml-10 text-1xl rounded-lg font-bold m-1 italic'><span className='text-main-100'>&#60;</span> <span className='decoration-comp-100 underline-offset-[3.5px] underline'>Computer Science</span></p>
-                        <h1 className='p-10 pt-5 header center rounded-lg font-semibold '>Um... What's a <span className='whitespace-nowrap'>web-developer?</span></h1>
+                        <h1 tabIndex={5} className='p-10 pt-5 header center rounded-lg font-semibold '>Um... What's a <span className='whitespace-nowrap'>web-developer?</span></h1>
                         <div className='ml-10'>
                         <p className='text-1xl rounded-lg indent-10 m-1'><span className='underline decoration-main-100 italic font-semibold'>I make websites!</span> For this task I use various technologies and liberies like Github, Undraw, React etc. On a rudementary level what these technologies do is steamline the task of positioning and placing content. "Content" can be images, text, vector graphics and more. With JavaScript you can add logic to this content think "if x then y". With CSS you can make the content look ✨pretty✨. HTML is the content that you are adding these modifiers to theorectically you can have a pure html website ( it would just be really ugly like it was 2006 all over again ). It's the job of any good web developer, computer scientist, software engineer or whatever you want to call it to <span className='underline decoration-comp-100 italic font-semibold'> translate</span>  all this techno-bable into understandable simple language. Most people don't care how a website is made as long as it works.</p>
                         <br/>

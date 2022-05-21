@@ -18,11 +18,11 @@ class Landing extends Component{
                     <NavLink to="/Contact" className='justify-start'>
                     
 
-                    <a className='p-2 mr-auto ml-1 my-1 text-xl font-bold bg-main-100' href='#Contact'>Contact</a>
+                    <a tabIndex={1} className='p-2 mr-auto ml-1 my-1 text-xl font-bold bg-main-100' href='#Contact'>Contact</a>
                     </NavLink>
                    
 
-                       <a href='#GetToKnowMe' className='p-1'> <button className='p-2 mr-auto ml-1 my-3 text-xl font-bold border-comp-100 border-2' ><span className='whitespace-nowrap'>Get to Know Me</span></button>
+                       <a tabIndex={2} href='#GetToKnowMe' className='p-1'> <button className='p-2 mr-auto ml-1 my-3 text-xl font-bold border-comp-100 border-2' ><span className='whitespace-nowrap'>Get to Know Me</span></button>
                        </a>
                     </div>
                 </div>
