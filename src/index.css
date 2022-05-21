@@ -83,6 +83,10 @@ flex-direction: row;
  }
 
 
+ html {
+  scroll-behavior: smooth;
+}
+
 *{
   color: #2f2e41;
   font-family: Poppins;
