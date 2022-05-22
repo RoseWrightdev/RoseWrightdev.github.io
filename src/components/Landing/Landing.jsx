@@ -8,7 +8,8 @@ class Landing extends Component{
     render() {
         return (
             <div>
-            <div className='mt-3 m-5'>
+            <div className='mt-3 m-5;
+'>
             <div className='flex'>
                 <div className='w-1/2 min-h-[25vw] z-10 mediaQHaft '>
                     <h1 className='p-5 header rounded-lg font-semibold '>I help people build interactive and compelling websites.</h1>

@@ -6,12 +6,12 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 
 import ScrollRestoration from './components/Scroll Restoration/Scroll Restoration';
+import ScrollButton from './components/Landing/Landing components/Scroll Button/ScrollButton';
 
 
 function App() {
   return (
     <span>
-
       <ScrollRestoration/>
       <Navbar/>
           <Routes>
@@ -19,6 +19,8 @@ function App() {
             <Route path="/About" element={<Foundation/>} />
             <Route path="/Contact" element={<Contact/>} />
           </Routes>
+          <ScrollButton />
+
     </span>
   );
 };
