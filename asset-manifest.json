@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.73fe0a7c.css",
-    "main.js": "/static/js/main.e1c2553e.js",
+    "main.js": "/static/js/main.b765e4bf.js",
     "static/media/polyPink.png": "/static/media/polyPink.d4f6fce0f07b32eb1794.png",
     "static/media/polyBlue.png": "/static/media/polyBlue.ff326ca6159b09d8ae51.png",
     "static/media/layered-peaks-haikei.png": "/static/media/layered-peaks-haikei.362dc186c5505bd26606.png",
     "index.html": "/index.html",
     "main.73fe0a7c.css.map": "/static/css/main.73fe0a7c.css.map",
-    "main.e1c2553e.js.map": "/static/js/main.e1c2553e.js.map"
+    "main.b765e4bf.js.map": "/static/js/main.b765e4bf.js.map"
   },
   "entrypoints": [
     "static/css/main.73fe0a7c.css",
-    "static/js/main.e1c2553e.js"
+    "static/js/main.b765e4bf.js"
   ]
 }
