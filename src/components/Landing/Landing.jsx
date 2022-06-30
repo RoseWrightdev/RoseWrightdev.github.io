@@ -18,10 +18,11 @@ class Landing extends Component{
                     <br/>
                     <NavLink to="/Contact" className='justify-start'>
 
-                    <a tabIndex={1} className='p-2 mr-auto ml-1 my-1 text-xl font-bold bg-main-100 hover:rounded-lg transition-all' href='#Contact'>Contact</a>
+                    <a tabIndex={1} className='p-2 mr-auto ml-1 my-1 text-xl font-extrabold bg-main-100 hover:rounded-lg hover:text-white transition-all' href='#Contact'>Contact</a>
                     </NavLink>
                    
-                    <a tabIndex={2} href='#GetToKnowMe' className='p-1'> <button className='p-2 mr-auto ml-1 my-3 text-xl font-bold border-comp-100 border-2 hover:rounded-lg transition-all' ><span className='whitespace-nowrap'>Get to Know Me</span></button>   </a>
+                    <a tabIndex={2} href='#GetToKnowMe' className='p-1'> <button className='p-2 mr-auto ml-1 my-3 text-xl font-bold border-comp-100 border-2 rounded-lg hover:bg-comp-100 hover:text-white underline-offset-1
+ transition-all' ><span className='whitespace-nowrap'>Get to Know Me</span></button>   </a>
                     </div>
                 </div>
                 <title id='landing'>Two women sitting down and relaxing. As they relax they look foward to the future. Behind these women there is a rose.</title>

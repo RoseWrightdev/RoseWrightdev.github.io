@@ -54,10 +54,14 @@ flex-direction: row;
 }
 
 *{
-  color: #2f2e41;
   font-family: Poppins;
   overflow-x: hidden;
   user-select: none;
+
+}
+
+body{
+  color: #2f2e41;
 
 }
 
