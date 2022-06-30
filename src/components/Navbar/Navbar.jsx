@@ -1,28 +1,8 @@
 import React, {Component} from 'react'
-import { MdAlternateEmail } from "react-icons/md";
 import { IoMdRose } from "react-icons/io";
 import { NavLink } from "react-router-dom";
 
-const NavbarIcon = ({icon, text = 'ERR Text Parameter Undefined'}) => (
-
-    <div className="NavbarIcon group">
-    {icon}
-    <span className="NavbarIcon-ToolTip group-hover:scale-100 z-100"> 
-        {text}
-    </span>
-    </div>
-    
-
-);
-
-const IconSize = 36;
-
-
-
 class Navbar extends Component {
-
-    
-    
   render() {
     return (
         <span>
