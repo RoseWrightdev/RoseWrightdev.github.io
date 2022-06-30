@@ -5,6 +5,10 @@
 
 /*Mobile/ Desktop Media*/
 
+.stroke{
+  -webkit-text-stroke: 0.05px #2f2e4129;
+}
+
 .DT_ONLY{
   display: block;
  }
