@@ -18,7 +18,7 @@ class Landing extends Component{
                     <br/>
                     <NavLink to="/Contact" className='justify-start'>
 
-                    <a tabIndex={1} className='p-2 mr-auto ml-1 my-1 text-xl font-extrabold bg-main-100 hover:rounded-lg  transition-all' href='#Contact'>Contact</a>
+                    <a tabIndex={1} className='p-2 mr-auto ml-1 my-1 text-xl font-extrabold bg-main-100 hover:bg-[#ff688467] border-main-100 border-2  hover:rounded-lg  transition-all' href='#Contact'>Contact</a>
                     </NavLink>
                    
                     <a tabIndex={2} href='#GetToKnowMe' className='p-1'> <button className='p-2 mr-auto ml-1 my-3 text-xl font-bold border-comp-100 border-2 rounded-lg stroke hover:bg-[#6b63ff67] underline-offset-1
