@@ -8,7 +8,7 @@ class Foundation extends Component{
                     <div className='z-10 mediaQHaft frosted'>
                         <br/>
                         <p className='ml-10 text-1xl rounded-lg font-bold m-1 italic'><span className='text-main-100'>&#60;</span> <span className='decoration-main-100 underline-offset-[3.5px] underline' >Get to Know Me</span></p>
-                        <h1 tabIndex={3} className='p-10 pt-5 header center rounded-lg font-semibold'>Experienced in Typescript, React Native, and Tailwind. </h1>
+                        <h1 tabIndex={3} className='p-10 pt-5 header center rounded-lg font-semibold'>Experienced in React, Nextjs, and Tailwind. </h1>
                         <div className='ml-10'>
                         <h2 className='text-1xl rounded-lg font-bold m-1'>With my foundation in Javascript, React, Three.js and GIT I deliver elegant, maintainable design systems.</h2>
                         <br/>
