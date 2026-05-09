@@ -1,38 +1,53 @@
 "use client";
 
-import { useEffect, useRef, useState, useId } from "react";
+import { useEffect, useState, useId } from "react";
 import mermaid from "mermaid";
-
-mermaid.initialize({
-  startOnLoad: false,
-  theme: "dark",
-  securityLevel: "loose",
-  fontFamily: "var(--font-geist-sans)",
-});
 
 export default function Mermaid({ chart }: { chart: string }) {
   const [svg, setSvg] = useState<string>("");
   const [error, setError] = useState<boolean>(false);
   const id = useId().replace(/:/g, "");
-  const isInitialRender = useRef(true);
 
   useEffect(() => {
-    // Avoid double rendering in dev mode
-    if (isInitialRender.current) {
-      isInitialRender.current = false;
-    }
+    let isMounted = true;
 
     const renderChart = async () => {
       try {
+        const isDarkMode = window.matchMedia("(prefers-color-scheme: dark)").matches;
+        
+        mermaid.initialize({
+          startOnLoad: false,
+          theme: isDarkMode ? "dark" : "default",
+          securityLevel: "loose",
+          fontFamily: "var(--font-geist-sans)",
+          themeVariables: {
+            fontSize: "14px",
+          }
+        });
+
         const { svg: renderedSvg } = await mermaid.render(`mermaid-${id}`, chart);
-        setSvg(renderedSvg);
+        if (isMounted) {
+          setSvg(renderedSvg);
+          setError(false);
+        }
       } catch (err) {
         console.error("Mermaid rendering failed:", err);
-        setError(true);
+        if (isMounted) {
+          setError(true);
+        }
       }
     };
 
     renderChart();
+
+    const mediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
+    const handler = () => renderChart();
+    mediaQuery.addEventListener("change", handler);
+    
+    return () => {
+      isMounted = false;
+      mediaQuery.removeEventListener("change", handler);
+    };
   }, [chart, id]);
 
   if (error) {
@@ -53,8 +68,9 @@ export default function Mermaid({ chart }: { chart: string }) {
 
   return (
     <div 
-      className="mermaid-container flex flex-col items-center my-8 overflow-x-auto"
+      className="mermaid-container flex flex-col items-center my-8 p-6"
       dangerouslySetInnerHTML={{ __html: svg }}
     />
   );
 }
+
