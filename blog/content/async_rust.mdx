@@ -37,7 +37,7 @@ Parallelism is like having one person on dinner and another on laundry. Parallel
 ![A diagram with stacked boxes labeled Task A and Task B, with diamonds in them representing subtasks. Arrows point from A1 to A2, A2 to A3, A3 to A4, B1 to B2, and B2 to B3. No arrows cross between the boxes for Task A and Task B.|542](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0nnkxtydsj2ewhq1njpy.png)
 [Diagram Credit: The Rust Programming Language, Chapter 17](https://doc.rust-lang.org/book/ch17-00-async-await.html)
 
-This piece will focus specially on leveraging concurrency in async Rust for blocking I/O and the multithreaded. If you want to learn more about parallelism for CPU-bound workloads take a look at [rayon](https://github.com/rayon-rs/rayon).
+This piece will focus specially on leveraging concurrency in async Rust for blocking I/O. If you want to learn more about parallelism for CPU-bound workloads take a look at [rayon](https://github.com/rayon-rs/rayon).
 ## Introduction to Async Rust
 Most modern programming languages like Go and JavaScript come with an ergonomic async runtime built into the language that allows you to easily complete tasks concurrently. 
 ```javascript
