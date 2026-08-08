@@ -12,9 +12,12 @@ export default function Home() {
           <h1 className="text-3xl font-bold tracking-tight text-black dark:text-zinc-50">
             Rose Wright
           </h1>
-          <p className="text-lg leading-7 text-zinc-600 dark:text-zinc-300 max-w-lg">
-            Software Engineer, incoming intern @ GCM Grosvenor.
-          </p>
+          <h2 className="text-lg leading-7 text-zinc-600 dark:text-zinc-300 max-w-lg">
+            Software Engineer
+          </h2>
+          <h2 className="text-sm leading-7 text-zinc-600 dark:text-zinc-300">
+            AI/ML intern @ Mayo Clinic | Prev SWE Intern @ GCM Grosvenor
+          </h2>
         </section>
         <section className="space-y-4 mb-4">
           <h2 className="text-xl font-semibold tracking-tight text-black dark:text-zinc-50 border-b border-zinc-200 dark:border-zinc-800 pb-1">
@@ -59,7 +62,7 @@ export default function Home() {
         </section>
       </main>
       <footer className="w-full max-w-3xl mx-auto py-2 px-8 sm:px-16 text-zinc-500 text-sm border-t border-zinc-100 dark:border-zinc-900">
-        &copy; {new Date().getFullYear()} Rose Wright. All rights reserved.
+        &copy; {new Date().getFullYear()} Rose Wright. All rights reserved. Opinions expressed are solely my own and do not express the views or opinions of my employer. 
       </footer>
     </div>
   );
