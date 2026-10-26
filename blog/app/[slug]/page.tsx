@@ -168,7 +168,7 @@ export default async function Page({
 
         <footer className="mt-8 pt-8 border-t border-zinc-100 dark:border-zinc-900">
           <p className="text-zinc-500 text-sm">
-            &copy; {new Date().getFullYear()} Rose Wright. All rights reserved.
+            &copy; {new Date().getFullYear()} Rose Wright. All rights reserved. Opinions expressed are solely my own and do not express the views or opinions of my employer.
           </p>
         </footer>
       </div>
