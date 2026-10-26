@@ -16,7 +16,7 @@ export default function Home() {
             Software Engineer
           </h2>
           <h2 className="text-sm text-zinc-600 dark:text-zinc-300 mt-1">
-            AI/ML intern @ Mayo Clinic | Prev SWE Intern @ GCM Grosvenor
+            AI/ML intern @ Mayo Clinic, Previously SWE Intern @ GCM Grosvenor
           </h2>
         </section>
         <section className="space-y-4 mb-6">
@@ -37,57 +37,77 @@ export default function Home() {
             <div className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between">
               <div>
                 <h3 className="text-base font-medium text-black dark:text-zinc-50">
+                  Mayo Clinic, Radiation Oncology
+                </h3>
+                <p className="text-sm text-zinc-600 dark:text-zinc-400">
                   Artificial Intelligence &amp; Machine Learning Intern
-                </h3>
-                <p className="text-sm text-zinc-600 dark:text-zinc-400">
-                  Mayo Clinic, Radiation Oncology · Rochester, MN
                 </p>
               </div>
-              <span className="text-zinc-500 dark:text-zinc-400 font-mono text-sm shrink-0">
-                August 2026 – May 2027
-              </span>
+              <div className="sm:text-right shrink-0">
+                <span className="text-zinc-500 dark:text-zinc-400 font-mono text-sm block">
+                  August 2026 – May 2027
+                </span>
+                <span className="text-sm text-zinc-600 dark:text-zinc-400 block">
+                  Rochester, MN
+                </span>
+              </div>
             </div>
 
             <div className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between">
               <div>
                 <h3 className="text-base font-medium text-black dark:text-zinc-50">
+                  GCM Grosvenor
+                </h3>
+                <p className="text-sm text-zinc-600 dark:text-zinc-400">
                   Software Engineering Intern
-                </h3>
-                <p className="text-sm text-zinc-600 dark:text-zinc-400">
-                  GCM Grosvenor · Chicago, IL
                 </p>
               </div>
-              <span className="text-zinc-500 dark:text-zinc-400 font-mono text-sm shrink-0">
-                June – August 2026
-              </span>
+              <div className="sm:text-right shrink-0">
+                <span className="text-zinc-500 dark:text-zinc-400 font-mono text-sm block">
+                  June – August 2026
+                </span>
+                <span className="text-sm text-zinc-600 dark:text-zinc-400 block">
+                  Chicago, IL
+                </span>
+              </div>
             </div>
 
             <div className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between">
               <div>
                 <h3 className="text-base font-medium text-black dark:text-zinc-50">
+                  University of Minnesota: Twin Cities
+                </h3>
+                <p className="text-sm text-zinc-600 dark:text-zinc-400">
                   Web Developer
-                </h3>
-                <p className="text-sm text-zinc-600 dark:text-zinc-400">
-                  University of Minnesota: Twin Cities · Minneapolis, MN
                 </p>
               </div>
-              <span className="text-zinc-500 dark:text-zinc-400 font-mono text-sm shrink-0">
-                March – December 2025
-              </span>
+              <div className="sm:text-right shrink-0">
+                <span className="text-zinc-500 dark:text-zinc-400 font-mono text-sm block">
+                  March – December 2025
+                </span>
+                <span className="text-sm text-zinc-600 dark:text-zinc-400 block">
+                  Minneapolis, MN
+                </span>
+              </div>
             </div>
 
             <div className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between">
               <div>
                 <h3 className="text-base font-medium text-black dark:text-zinc-50">
-                  Web Development Intern
+                  Wildlife Forever
                 </h3>
                 <p className="text-sm text-zinc-600 dark:text-zinc-400">
-                  Wildlife Forever · St. Paul, MN
+                  Web Development Intern
                 </p>
               </div>
-              <span className="text-zinc-500 dark:text-zinc-400 font-mono text-sm shrink-0">
-                June – August 2023
-              </span>
+              <div className="sm:text-right shrink-0">
+                <span className="text-zinc-500 dark:text-zinc-400 font-mono text-sm block">
+                  June – August 2023
+                </span>
+                <span className="text-sm text-zinc-600 dark:text-zinc-400 block">
+                  St. Paul, MN
+                </span>
+              </div>
             </div>
           </div>
         </section>
